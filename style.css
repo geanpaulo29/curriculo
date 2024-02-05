@@ -340,9 +340,18 @@ footer{
 @media screen and (max-width:1024px){  
 
     .icon-nav{
-        display: none;
+        width: 55px;
+        height: 55px;
     }
 
+    #content-h1{
+        text-align: center;
+    }
+    
+    #content-hr1{
+        margin-right: -35px   ;
+    }
+    
     #content-polaroid{
         display: none;
     }
@@ -356,6 +365,7 @@ footer{
     .container-1{
         margin: 0px;
         font-size: 50px;
+        margin-right: -45px;
     }
 
     .container-2{
@@ -366,10 +376,6 @@ footer{
     .container-info{
         display: inline-block;
         margin: -120px;
-    }
-
-    .content-nav{
-        display: none;
     }
 
     .content-nav2{
