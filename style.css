@@ -336,3 +336,61 @@ footer{
     text-align: center;
     letter-spacing: 50px;
 }
+
+@media screen and (max-width:1024px){  
+
+    .icon-nav{
+        display: none;
+    }
+
+    #content-polaroid{
+        display: none;
+    }
+
+    .container-flexbox{
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .container-1{
+        margin: 0px;
+        font-size: 50px;
+    }
+
+    .container-2{
+        margin: 0px;
+        margin-left: 10%;
+    }
+
+    .container-info{
+        display: inline-block;
+        margin: -120px;
+    }
+
+    .content-nav{
+        display: none;
+    }
+
+    .content-nav2{
+        display: none;
+    }
+
+    .container-footer, footer{
+        display: none;
+    }
+
+    .content-ability{
+        margin: 150px;
+        margin-right: 37px;
+        
+    }
+
+    .content-section{
+        margin-top: 60px;
+    }
+
+    .content-section-academic{
+        margin-top: 60px;
+    }
+}
